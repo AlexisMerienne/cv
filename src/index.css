@@ -11,3 +11,20 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+:root{
+  --clr-green-main: hsla(120, 100%, 41%, 0.247);
+  --clr-green-scd: #007e00a2 ;
+  --clr-green-wrapper : #003200;
+  --clr-green-light : #69ff69;
+  --border-radius-main : 7px;
+  --border-radius-max : 10em;
+}
+
+div[shadow-green] {
+  border: 0px solid black;
+  padding: 10px 20px;
+  border-radius: 7px;
+  text-align: center;
+  box-shadow: 0 0 0 transparent, 0 0 0 transparent, 6px 4px 25px var(--clr-green-scd);
+  background-color: var(--clr-green-main);
+}
