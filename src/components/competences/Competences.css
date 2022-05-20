@@ -1,9 +1,0 @@
-.container-competences {
-    margin: 2em;
-    text-align: left;
-}
-.flip-card-row{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-}
